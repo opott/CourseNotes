@@ -1,1 +1,6 @@
-queue_rules: []
+queue_rules:
+  - batch_size: 10
+    batch_max_wait_time: 5 m
+    merge_method: rebase
+    update_method: merge
+    name: Main Queue
