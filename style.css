@@ -81,11 +81,6 @@ section {
   color: #ffffff;
 }
 
-ul {
-  list-style-type: none;
-  padding: 0;
-}
-
 li a {
   color: #333;
   text-decoration: none;
