@@ -104,7 +104,7 @@ footer a {
 .hero {
   position: relative;
   height: 80.19vh;
-  background: url("img/jan-kahanek-g3O5ZtRk2E4-unsplash.jpg") center
+  background: url("/CS-Notes/img/jan-kahanek-g3O5ZtRk2E4-unsplash.jpg") center
     center/cover no-repeat;
   display: flex;
   justify-content: center;
