@@ -303,3 +303,7 @@ footer.placeholder {
 .course-card h2 {
   margin: 0 0 10px;
 }
+
+.giscus iframe {
+  box-shadow: none !important;
+  }
