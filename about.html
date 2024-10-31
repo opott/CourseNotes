@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>About | CS Notes</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="/style.css">
+    </head>
+    <body>
+        <div class="loading-overlay">
+            <div class="loading-spinner"></div>
+        </div>
+
+        <dyn-header></dyn-header>
+
+        <div class="hero" style="height: 20rem;">
+            <div class="hero-content">
+                <h1>About</h1>
+            </div>
+        </div>
+        <div style="display: flex; align-items: flex-start;">
+            <div style="flex: 1;">
+            <h1>About Me</h1>
+            <p>Hi! I'm Oliver, a Computer Science student in the UK. I created CS Notes as a way to share my learning and knowledge with the world, and help other students to do their best in their exams.</p>
+            <p>I am currently studying Computer Science at GCSE level with the OCR exam board. All notes on this site will be exam board specific, but a lot of the concepts are similar across other exam boards.</p>
+            <h1>Contributions</h1>
+            <p>If you are studying for a different Computer Science course or exam board, I would love to see your notes on the site!</p>
+            <p>Feel free to get in touch with me on the Contact page and I can get you set up to start uploading your notes!</p>
+            </div>
+            <div style="flex: 0 0 auto; margin-left: 20px;">
+            <img src="/img/laptop wave.png" style="height: 25rem;">
+            </div>
+        </div></div>
+        <dyn-footer></dyn-footer>
+
+        <script src="/elements/headerfooter.js" defer></script>
+        <script>
+            window.addEventListener('load', function() {
+                document.querySelector('.loading-overlay').style.display = 'none';
+            });
+        </script>
+    </body>
+</html>
