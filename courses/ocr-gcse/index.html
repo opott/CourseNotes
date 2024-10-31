@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>OCR GCSE | CS Notes</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="/style.css">
+    </head>
+    <body>
+        <div class="loading-overlay">
+            <div class="loading-spinner"></div>
+        </div>
+
+        <dyn-header></dyn-header>
+
+        <div class="hero" style="height: 20rem;">
+            <div class="hero-content">
+                <h1>OCR GCSE</h1>
+            </div>
+        </div>
+        <div style="display: flex; align-items: flex-start;">
+            <div style="flex: 1;">
+            <h1>Welcome</h1>
+            <p>This course contains detailed notes on the topics covered in the OCR Computer Science J277 specification.</p>
+            <p>Please note that this is in no way complete. The author of this course is currently studying for this exam, and therefore may not yet have knowledge on all topics.</p>
+            <h1>Course Contents</h1>
+            <h2>Paper 1</h2>
+            <h3>1.1 - Systems Architechture</h3>
+            <div class="courses-grid">
+                <div class="course-card">
+                    <a href="/courses/ocr-gcse/1.1/1-architechture-of-the-cpu.html">
+                        <p>1.1.1</p>
+                        <h2>Architechture of the CPU</h2>
+                    </a>
+                </div>
+                <div class="course-card">
+                    <a href="/courses/ocr-gcse/1.1/2-cpu-performance.html">
+                        <p>1.1.2</p>
+                        <h2>CPU Performance</h2>
+                    </a>
+                </div>
+                <div class="course-card">
+                    <a href="/courses/ocr-gcse/1.1/3-embedded-systems.html">
+                        <p>1.1.3</p>
+                        <h2>Embedded Systems</h2>
+                    </a>
+                </div>
+                <div class="course-card">
+                    <a href="/courses/ocr-gcse/1.1/4-primary-storage-memory.html">
+                        <p>1.1.4</p>
+                        <h2>Primary Storage (Memory)</h2>
+                    </a>
+                </div>
+                <div class="course-card">
+                    <a href="/courses/ocr-gcse/1.1/5-secondary-storage.html">
+                        <p>1.1.5</p>
+                        <h2>Secondary Storage</h2>
+                    </a>
+                </div>
+            </div>
+            <div style="display: flex; align-items: flex-start;">
+                <div style="flex: 1;">
+                    <h1>About the Author</h1>
+                    <p>Hi! I'm Oliver, a Computer Science student in the UK. I created CS Notes as a way to share my learning and knowledge with the world, and help other students to do their best in their exams.</p>
+                    <p>I am currently studying Computer Science at GCSE level with the OCR exam board. All notes on this site will be exam board specific, but a lot of the concepts are similar across other exam boards.</p>
+                </div>
+                <div style="flex: 0 0 auto; margin-left: 20px;">
+                    <img src="/img/laptop wave.png" style="height: 18rem;">
+                </div>
+            </div>
+            </div>
+        </div></div>
+        <dyn-footer></dyn-footer>
+
+        <script src="/elements/headerfooter.js" defer></script>
+        <script>
+            window.addEventListener('load', function() {
+                document.querySelector('.loading-overlay').style.display = 'none';
+            });
+        </script>
+    </body>
+</html>
