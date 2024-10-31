@@ -78,22 +78,22 @@ section {
 }
 
 .hero-content h2 {
-    color: #ffffff;
-  }
-  
-  li a {
-    color: #333;
-    text-decoration: none;
-    font-size: 1rem;
-  }
-  
-  footer {
-    background-color: #159472;
-    color: #fff;
-    padding: 0.625rem;
-    text-align: center;
-    width: auto;
-  }
+  color: #ffffff;
+}
+
+li a {
+  color: #333;
+  text-decoration: none;
+  font-size: 1rem;
+}
+
+footer {
+  background-color: #159472;
+  color: #fff;
+  padding: 0.625rem;
+  text-align: center;
+  width: auto;
+}
 
 footer a {
   color: white;
