@@ -43,6 +43,82 @@
                 <li>Accumulator</li>
             </ul>
         </ul>
+        <p>For this topic, the specification states that you should know the following:
+            <ul>
+                <li>What actions occur at each stage of the fetch-execute cycle</li>
+                <li>The role/purpose of each component and what it manages, stores, or controls during the fetch-execute cycle</li>
+                <li>The purpose of each register, what it stores (data or address)</li>
+                <li>The difference between storing data and an address</li>
+            </ul>
+        </p>
+        <p>You are not required to know:
+            <ul>
+                <li>Knowledge of passing of data between registers in each stage</li>
+            </ul>
+        </p>
+        <h1>The purpose of the CPU</h1>
+        <p>The purpose of the CPU is to <strong>interpret & process data</strong>, as well as <strong>interpreting, processing & executing instructions</strong>.</p>
+        <p>The CPU also <strong>controls the rest of the computer system</strong>.</p>
+        <h2>The fetch-execute cycle</h2>
+        <p>The <strong>fetch-execute cycle</strong> (sometimes referred to as the <strong>fetch-decode-execute cycle</strong>) is a cycle followed by the CPU to process an instruction.</p>
+        <p>In its basic form, the cycle consists of three stages:
+            <ol>
+                <li><strong>Fetch -</strong> The instruction is fetched from the primary memory and brought back into the CPU.</li>
+                <li><strong>Decode -</strong> The instruction is broken down and decoded by the CPU, to figure out what it needs to do.</li>
+                <li><strong>Execute -</strong> The instruction is actually carried out, which may involve tasks such as calculations, or storing data back into the primary memory.</li>
+            </ol>
+        </p>
+        <div style="max-width: 64vw; margin: 0 auto;">
+            <iframe width="320" height="180" src="https://www.youtube.com/embed/7Up7DIPkTzo" title="1. OCR GCSE (J277) 1.1 The purpose of the CPU - The fetch-execute cycle" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+        <h1>Common CPU components and their function</h1>
+        <p>The CPU consists of many different components and registers, all with specific functions.</p>
+        <h2>ALU (Arithmetic Logic Unit)</h2>
+        <p>When the CPU executes instructions, it is often necessary to perform <strong>arithmetic calculations</strong>, or make <strong>logical decisions</strong>.</p>
+        <p>This is handled by the <strong>Arithmetic Logic Unit</strong> (the ALU)</p>
+        <p>The ALU performs: 
+            <ol>
+                <li><strong>Arithmetic Calculations -</strong> addition, subtracttion, multiplication & division</li>
+                <li><strong>Logical Operations -</strong> Making a decision based on certain factors</li>
+            </ol>
+        </p>
+        <h2>CU (Control Unit)</h2>
+        <p>The Control Unit controls <strong>how data moves</strong> around the CPU.</p>
+        <p>It provides these functions: 
+            <ol>
+                <li>it <strong>fetches, decodes & executes</strong> instructions</li>
+                <li>it <strong>controls hardware</strong></li>
+                <li>it <strong>moves data</strong> around the computer</li>
+            </ol>
+        </p>
+        <h2>Cache</h2>
+        <p>Cache is a small amount of <strong>high speed memory in the CPU</strong>.</p>
+        <p>It is quicker to transfer data to and from cache memory than to and from RAM.</p>
+        <p>Therefore, cache memory is used to temporarily hold data and instructions that the CPU is likely to need again.</p>
+        <p>More cache memory can result in increased performance.</p>
+        <h2>Registers</h2>
+        <p>Registers are also <strong>small amounts of high speed memory</strong> that are used by the CPU to store data to be processed.</p>
+        <p>Each register has a <strong>specific function</strong> and stores certain types of data.</p>
+        <p>They store things such as: 
+            <ol>
+                <li>the address of the next instruction to be executed</li>
+                <li>data that has been fetched or is to be stored</li>
+                <li>the address where data is to be fetched from or stored to</li>
+                <li>results of calulations from the ALU</li>
+            </ol>
+        </p>
+        <p>The registers are: 
+            <ol>
+                <li><strong>Memory Address Register</strong> (MAR)</li>
+                <li><strong>Memory Data Register</strong> (MDR)</li>
+                <li><strong>Accumulator</strong> (ACC)</li>
+                <li><strong>Program Counter</strong> (PC)</li>
+            </ol>
+        </p>
+        <p>These will be explained in more detail in the Von Neumann Architechture section.</p>
+        <div style="max-width: 64vw; margin: 0 auto;">
+            <iframe width="320" height="180" src="https://www.youtube.com/embed/hk9LPXzYeT0" title="1. OCR GCSE (J277) 1.1 The purpose of the CPU - The fetch-execute cycle" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
         <div style="display: flex; align-items: flex-start;">
             <div style="flex: 1;">
                 <h1>About the Author</h1>
