@@ -27,7 +27,7 @@ Here're some of the project's best features:
 
 <h2>🍰 Contribution Guidelines:</h2>
 
-Contributions are welcome to improve CourseNotes! Whether you're fixing bugs adding features or improving existing content your help is appreciated. If you'd like to create a new course or edit an existing course you didn't author please contact the maintainer via the chat widget at https://notes.opott.uk before making changes. This helps ensure consistency and accuracy. Feel free to open issues or submit pull requests with a clear description of your updates. Let’s make learning better together!
+Contributions are welcome to improve CourseNotes! Whether you're fixing bugs, adding features, or improving existing content, your help is appreciated. If you'd like to create a new course or edit an existing course you didn't author, please contact the maintainer via the chat widget at https://notes.opott.uk before making changes. This helps ensure consistency and accuracy. Feel free to open issues or submit pull requests with a clear description of your updates. Let’s make learning better together!
 
 <h2>💻 Built with</h2>
 
