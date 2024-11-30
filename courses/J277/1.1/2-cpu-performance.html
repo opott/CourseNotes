@@ -4,7 +4,11 @@
         <title>CPU Performance | OCR J277 | CourseNotes</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="/style.css">
+        <link rel="canonical" href="https://notes.opott.uk/courses/J277/1.1/2-cpu-performance.html">
         <meta property="og:title" content="[OCR J277] 1.1.2 - CPU Performance" />
+        <meta property="og:site_name" content="CourseNotes">
+        <script type="module" src="https://js.withorbit.com/orbit-web-component.js"></script>
+        <meta property="orbit:color" content="turquoise" />
     </head>
     <body>
         <div class="loading-overlay">
@@ -38,11 +42,79 @@
                 <li>The effects of changing any of the common characteristics on system performance, either individually or in combination</li>
             </ul>
         </p>
-        <h1>How common characteristics of CPUs affect their performance</h1>
-        <p><strong>Written content coming soon!</strong></p>
+        <h1>How Common Characteristics of CPUs Affect Their Performance</h1>
+        <p>There are 3 main factors that affect the performance of a CPU.</p>
+        <p>These factors are:
+            <ul>
+                <li>Clock speed</li>
+                <li>Cache size</li>
+                <li>Number of cores</li>
+            </ul>
+        </p>
+        <h2>Clock Speed</h2>
+        <p>The <strong>clock speed</strong> refers to the amount of fetch-execute cycles that can be run per second.</p>
+        <p>Clock speed is measured in <strong>Hertz</strong> (Hz).</p>
+        <p>More modern process operate at billions of cycles per second, which is measured in <strong>Gigahertz</strong> (GHz).</p>
+        <p>For example, a processor with a 2.5GHz clock speed can perform 2.5 billion fetch-execute cycles per second!</p>
+        <p>With a higher clock speed, you can expect better performance.</p>
+        <h2>Cache Size</h2>
+        <p><strong>Cache</strong> is a small area of high-speed memory located in the CPU.</p>
+        <p>It is used for temporary storage of data and instructions currently in use.</p>
+        <p>Copies of recent data and instructions are stored temporarily in the cache to make it quicker to use them again if needed.</p>
+        <p>It is much quicker to fetch data from the cache than from main memory (RAM). Where possible, we try to avoid getting data from main memory as it takes too much time.</p>
+        <p>Having a larger cache can lead to better performance.</p>
+        <h2>Number of Cores</h2>
+        <p>A CPU is usually made up of multiple processing cores.</p>
+        <p>A <strong>core</strong> is essentially a processor inside of a CPU.</p>
+        <p>Each core has its own processing units.</p>
+        <p>Since each core is able to process one instruction at a time, having multiple cores would allow a system to process multiple instructions simultaneously.</p>
+        <p>Having more cores can lead to significantly better performance, especially when multitasking.</p>
+        <p>However, not all programs are able to make use of multiple cores, therefore the number of cores would not affect the way it runs.</p>
         <div style="max-width: 64vw; margin: 0 auto;">
             <iframe width="320" height="180" src="https://www.youtube.com/embed/pZs_jfoxNLA" title="4. OCR GCSE (J277) 1.1 Characteristics of CPUs" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
         </div>
+        <orbit-reviewarea>
+            <orbit-prompt
+              question="What are the three factors affecting the performance of a CPU?"
+              answer="Clock Speed, Cache Size, Number of Cores"
+            ></orbit-prompt>
+            <orbit-prompt
+              question="What is clock speed?"
+              answer="Clock speed is the amount of fetch-execute cycles that can be run per second."
+            ></orbit-prompt>
+            <orbit-prompt
+              question="What units is clock speed measured in?"
+              answer="Hertz (Hz) or Gigahertz (GHz)"
+            ></orbit-prompt>
+            <orbit-prompt
+              question="What is cache?"
+              answer="Cache is a small area of high-speed memory located in the CPU."
+            ></orbit-prompt>
+            <orbit-prompt
+              question="Why does a computer need and use cache?"
+              answer="Cache is used for temporary storage of data and instructions currently in use. Copies of recent data and instructions are stored temporarily in the cache to make it quicker to use them again if needed."
+            ></orbit-prompt>
+            <orbit-prompt
+              question="True or False: RAM is faster than Cache"
+              answer="False"
+            ></orbit-prompt>
+            <orbit-prompt
+              question="What is a core?"
+              answer="Cores are the processing units that make up the CPU."
+            ></orbit-prompt>
+            <orbit-prompt
+              question="Each core can process ___ instruction at a time."
+              answer="one"
+            ></orbit-prompt>
+            <orbit-prompt
+              question="How can having multiple cores affect the performance of a system?"
+              answer="It allows a system to process multiple instructions simultaneously, leading to improved multitasking performance."
+            ></orbit-prompt>
+            <orbit-prompt
+              question="What is one downside of having multiple cores?"
+              answer="Not all programs are able to make use of multiple cores."
+            ></orbit-prompt>
+          </orbit-reviewarea>
         <div style="display: flex; align-items: flex-start;">
             <div style="flex: 1;">
                 <h1>About the Author</h1>

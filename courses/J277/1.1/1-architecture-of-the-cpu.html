@@ -1,10 +1,14 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Architechture of the CPU | OCR J277 | CourseNotes</title>
+        <title>Architecture of the CPU | OCR J277 | CourseNotes</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="/style.css">
-        <meta property="og:title" content="[OCR J277] 1.1.1 - Architechture of the CPU" />
+        <link rel="canonical" href="https://notes.opott.uk/courses/J277/1.1/1-Architecture-of-the-cpu.html">
+        <meta property="og:title" content="[OCR J277] 1.1.1 - Architecture of the CPU" />
+        <meta property="og:site_name" content="CourseNotes">
+        <script type="module" src="https://js.withorbit.com/orbit-web-component.js"></script>
+        <meta property="orbit:color" content="turquoise" />
     </head>
     <body>
         <div class="loading-overlay">
@@ -16,8 +20,8 @@
         <div class="hero" style="height: 20rem;">
             <div class="hero-content">
                 <h3>GCSE Computer Science (OCR J277)</h3>
-                <h3>1.1 - Systems Architechture</h3>
-                <h1>Architechture of the CPU</h1>
+                <h3>1.1 - Systems Architecture</h3>
+                <h1>Architecture of the CPU</h1>
             </div>
         </div>
 
@@ -35,7 +39,7 @@
                 <li>Cache</li>
                 <li>Registers</li>
             </ul>
-            <li>Von Neumann architechture:</li>
+            <li>Von Neumann Architecture:</li>
             <ul>
                 <li>MAR (Memory Address Register)</li>
                 <li>MDR (Memory Data Register)</li>
@@ -56,10 +60,10 @@
                 <li>Knowledge of passing of data between registers in each stage</li>
             </ul>
         </p>
-        <h1>The purpose of the CPU</h1>
+        <h1>The Purpose of the CPU</h1>
         <p>The purpose of the CPU is to <strong>interpret & process data</strong>, as well as <strong>interpreting, processing & executing instructions</strong>.</p>
         <p>The CPU also <strong>controls the rest of the computer system</strong>.</p>
-        <h2>The fetch-execute cycle</h2>
+        <h2>The Fetch-Execute Cycle</h2>
         <p>The <strong>fetch-execute cycle</strong> (sometimes referred to as the <strong>fetch-decode-execute cycle</strong>) is a cycle followed by the CPU to process an instruction.</p>
         <p>In its basic form, the cycle consists of three stages:
             <ol>
@@ -71,7 +75,33 @@
         <div style="max-width: 64vw; margin: 0 auto;">
             <iframe width="320" height="180" src="https://www.youtube.com/embed/7Up7DIPkTzo" title="1. OCR GCSE (J277) 1.1 The purpose of the CPU - The fetch-execute cycle" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
         </div>
-        <h1>Common CPU components and their function</h1>
+        <orbit-reviewarea>
+            <orbit-prompt
+              question="What does the CPU do?"
+              answer="It processess all data and instructions, and controls the rest of the computer system."
+            ></orbit-prompt>
+            <orbit-prompt
+              question="What is the name of the cycle followed by the CPU to process an instruction?"
+              answer="The fetch-execute cycle."
+            ></orbit-prompt>
+            <orbit-prompt
+              question="What are the three stages of the fetch-execute cycle?"
+              answer="Fetch, Decode, Execute"
+            ></orbit-prompt>
+            <orbit-prompt
+              question="What happens at the 'fetch' stage of the fetch-execute cycle?"
+              answer="The instruction is fetched from the primary memory and brought back into the CPU."
+            ></orbit-prompt>
+            <orbit-prompt
+              question="What happens at the 'decode' stage of the fetch-execute cycle?"
+              answer="The instruction is broken down and decoded by the CPU, to figure out what it needs to do."
+            ></orbit-prompt>
+            <orbit-prompt
+              question="What happens at the 'execute' stage of the fetch-execute cycle?"
+              answer="The instruction is actually carried out, which may involve tasks such as calculations, or storing data back into the primary memory."
+            ></orbit-prompt>
+          </orbit-reviewarea>
+        <h1>Common CPU components and Their Function</h1>
         <p>The CPU consists of many different components and registers, all with specific functions.</p>
         <h2>ALU (Arithmetic Logic Unit)</h2>
         <p>When the CPU executes instructions, it is often necessary to perform <strong>arithmetic calculations</strong>, or make <strong>logical decisions</strong>.</p>
@@ -115,14 +145,48 @@
                 <li><strong>Program Counter</strong> (PC)</li>
             </ol>
         </p>
-        <p>These will be explained in more detail in the Von Neumann Architechture section.</p>
+        <p>These will be explained in more detail in the Von Neumann Architecture section.</p>
         <div style="max-width: 64vw; margin: 0 auto;">
             <iframe width="320" height="180" src="https://www.youtube.com/embed/hk9LPXzYeT0" title="2. OCR GCSE (J277) 1.1 CPU components and their function" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
         </div>
-        <h1>Von Neumann Architechture</h1>
-        <p>The Von Neumann Architechture is the stored program concept.</p>
+        <orbit-reviewarea>
+            <orbit-prompt
+              question="What does ALU stand for?"
+              answer="Arithmetic Logic Unit"
+            ></orbit-prompt>
+            <orbit-prompt
+              question="What are the two types of operations that the ALU performs?"
+              answer="Arithmetic Calculations and Logical Operations"
+            ></orbit-prompt>
+            <orbit-prompt
+              question="What is the purpose of the Control Unit (CU)?"
+              answer="It controls how data moves around the CPU."
+            ></orbit-prompt>
+            <orbit-prompt
+              question="What three functions does the CU provide?"
+              answer="Fetches, decodes & executes instructions, controls hardware, moves data around the computer"
+            ></orbit-prompt>
+            <orbit-prompt
+              question="What is cache?"
+              answer="A small amount of high-speed memory in the CPU."
+            ></orbit-prompt>
+            <orbit-prompt
+              question="Cache memory has faster transfer speeds than ___."
+              answer="RAM"
+            ></orbit-prompt>
+            <orbit-prompt
+              question="What are registers?"
+              answer="Small amounts of high-speed memory in the CPU for dedicated functions."
+            ></orbit-prompt>
+            <orbit-prompt
+              question="Name the 4 registers in the CPU."
+              answer="Memory Address Register (MAR), Memory Data Register (MDR), Accumulator (ACC), Program Counter (PC)"
+            ></orbit-prompt>
+          </orbit-reviewarea>
+        <h1>Von Neumann Architecture</h1>
+        <p>The Von Neumann Architecture is the stored program concept.</p>
         <p>It is the idea that programs can be stored on the computer along with user data, allowing the functions of the program to be changed easily.</p>
-        <p>Without the Von Neumann Architechture, changing a program would involve modifying complex electrical wiring inside of the computer.</p>
+        <p>Without the Von Neumann Architecture, changing a program would involve modifying complex electrical wiring inside of the computer.</p>
         <p>The main parts of the Von Neumann Architecture are:
             <ol>
                 <li>data and instructions are stored as binary digits</li>
@@ -135,13 +199,59 @@
         <p>The <strong>memory address register</strong> stores the address where instructions or data are to be fetched from, or the address where data is to be transferred to.</p>
         <h2>MDR (Memory Data Register)</h2>
         <p>The <strong>memory data register</strong> stores the contents of the address in the MAR, or data to be transferred to primary memory.</p>
-        <h2>Program Counter</h2>
-        <p>The <strong>program counter</strong> stores the address of the next instruction to go through the fetch-decode-execute cycle.</p>
-        <h2>Accumulator</h2>
-        <p>The <strong>accumulator</strong> stores the data being process and the results from the arithmetic logic unit.</p>
+        <h2>Program Counter (PC)</h2>
+        <p>The <strong>program counter</strong> stores the address of the next instruction to go through the fetch-execute cycle.</p>
+        <h2>Accumulator (ACC)</h2>
+        <p>The <strong>accumulator</strong> stores the data being processed and the results from the arithmetic logic unit.</p>
         <div style="max-width: 64vw; margin: 0 auto;">
             <iframe width="320" height="180" src="https://www.youtube.com/embed/KBmoqwVt4Qg" title="3. OCR GCSE (J277) 1.1 Von Neumann architecture" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
         </div>
+        <orbit-reviewarea>
+            <orbit-prompt
+              question="What is the Von Neumann Architecture?"
+              answer="The stored program concept."
+            ></orbit-prompt>
+            <orbit-prompt
+              question="What does the Von Neumann Architecture allow?"
+              answer="Programs can be stored with user data on the computer."
+            ></orbit-prompt>
+            <orbit-prompt
+              question="True or False: The Von Neumann Architecture allows for easy changing of program functions."
+              answer="True"
+            ></orbit-prompt>
+            <orbit-prompt
+              question="How are data and instructions stored in the Von Neumann Architecture?"
+              answer="As binary digits in primary memory."
+            ></orbit-prompt>
+            <orbit-prompt
+              question="How are instructions executed in the Von Neumann Architecture"
+              answer="They are fetched from primary memory and executed in order."
+            ></orbit-prompt>
+            <orbit-prompt
+              question="How long does the CPU perform the fetch-execute cycle for?"
+              answer="Until there are no more instructions available."
+            ></orbit-prompt>
+            <orbit-prompt
+              question="Name the 4 registers in the CPU."
+              answer="Memory Address Register (MAR), Memory Data Register (MDR), Accumulator (ACC), Program Counter (PC)"
+            ></orbit-prompt>
+            <orbit-prompt
+              question="What is the function of the MAR?"
+              answer="Stores the address where instructions or data are to be fetched from, or the address where data is to be transferred to."
+            ></orbit-prompt>
+            <orbit-prompt
+              question="What is the function of the MDR?"
+              answer="Stores the contents of the address in the MAR, or data to be transferred to primary memory."
+            ></orbit-prompt>
+            <orbit-prompt
+              question="What is the function of the Program Counter?"
+              answer="Stores the address of the next instruction to go through the fetch-execute cycle."
+            ></orbit-prompt>
+            <orbit-prompt
+              question="What is the function of the Accumulator?"
+              answer="Stores the data being processed and the results from the arithmetic logic unit."
+            ></orbit-prompt>
+          </orbit-reviewarea>
         <div style="display: flex; align-items: flex-start;">
             <div style="flex: 1;">
                 <h1>About the Author</h1>

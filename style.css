@@ -249,15 +249,13 @@ iframe {
   }
 }
 
-/* Placeholder styles for header and footer */
 header.placeholder,
 footer.placeholder {
   background-color: #159472;
-  height: 100px; /* Adjust the height as needed */
+  height: 100px;
   width: 100%;
 }
 
-/* Loading overlay styles */
 .loading-overlay {
   position: fixed;
   top: 0;
@@ -306,4 +304,11 @@ footer.placeholder {
 
 .giscus iframe {
   box-shadow: none !important;
+}
+
+orbit-reviewarea {
+  width: 60vw;
+  height: 60vh;
+  justify-self: center;
+  margin-bottom: 3vh;
 }
