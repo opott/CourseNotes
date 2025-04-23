@@ -14,6 +14,7 @@ A revision website for by students, for students.
 We currently have notes for the following courses
 
 - GCSE Computer Science (OCR J277)
+    - This course is currently **outdated** and is due to be overhauled soon!
 - GCSE English Literature - Power & Conflict Poetry (AQA 8702/B/2)
 
 ## Contributing
@@ -40,3 +41,6 @@ This project is licensed under the GNU General Public License v3.0 - see the LIC
 <img src="https://hc-cdn.hel1.your-objectstorage.com/s/v3/30ec6acfe0902f58f9459a6f4b024bfb16bc7c48_image.png" width="45%"></img>
 <img src="https://hc-cdn.hel1.your-objectstorage.com/s/v3/6b01b068904093fa5fc0e7c34af3d037ee767465_image.png" width="45%"></img>
 </div>
+
+### Notice on AI Usage
+Some content on this site (primarily review questions) was authored with the assistance of AI tools, such as OpenAI's ChatGPT.
