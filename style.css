@@ -1,10 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Tinos:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,100..900;1,100..900&display=swap');
 
 /* General Styles */
 body,
 html {
-  font-family: Tinos, sans-serif;
+  font-family: Bitter, sans-serif;
   margin: 0;
   padding: 0;
   font-size: 1rem;
@@ -215,7 +216,7 @@ footer.placeholder {
 
 /* Orbit Review Area */
 orbit-reviewarea {
-  width: 60vw;
+  width: 90%;
   height: 60vh;
   justify-self: center;
   margin-bottom: 3vh;
