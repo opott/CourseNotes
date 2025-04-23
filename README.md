@@ -1,42 +1,42 @@
-<h1 align="center" id="title">CourseNotes</h1>
-
 <p align="center"><img src="https://socialify.git.ci/opott/CourseNotes/image?description=1&amp;descriptionEditable=A%20revision%20website%20by%20students%2C%20for%20students.&amp;font=Raleway&amp;forks=1&amp;issues=1&amp;language=1&amp;name=1&amp;owner=1&amp;pattern=Formal%20Invitation&amp;pulls=1&amp;stargazers=1&amp;theme=Dark" alt="project-image"></p>
 
-<p id="description">A revision website written in HTML that any student can contribute to!</p>
+# CourseNotes
+A revision website for by students, for students.
 
-<h2>🚀 Demo</h2>
+## Features
+- Detailed notes across various subjects
+- Easy-to-follow study materials
+- Open source and student-driven
+- Responsive design
+- **Retrieval practice powered by [Orbit](https://withorbit.com/)**
 
-[https://notes.opott.uk](https://notes.opott.uk)
+## Courses
+We currently have notes for the following courses
 
-<h2>Project Screenshots:</h2>
+- GCSE Computer Science (OCR J277)
+- GCSE English Literature - Power & Conflict Poetry (AQA 8702/B/2)
 
-<img src="https://cloud-92odafpg9-hack-club-bot.vercel.app/0image.png" alt="project-screenshot" width="600" height="400/">
+## Contributing
+Before making any contributions, please reach out the maintainter first:
+- Open a general ticket through the widget on [notes.opott.uk](https://notes.opott.uk)
+- Email me on coursenotes@opott.uk
 
-<img src="https://cloud-92odafpg9-hack-club-bot.vercel.app/1image.png" alt="project-screenshot" width="600" height="400/">
+This helps ensure consistency across the site and allows me to provide guidance before you start.
 
-<img src="https://cloud-92odafpg9-hack-club-bot.vercel.app/2image.png" alt="project-screenshot" width="600" height="400/">
+For content contributions:
+- Ensure notes are clear and accurate
+- Follow existing formatting patterns
+- Add [Orbit](https://withorbit.com/) review areas when possible
 
-<h2>🧐 Features</h2>
+## License
+This project is licensed under the GNU General Public License v3.0 - see the LICENSE file for details.
 
-Here're some of the project's best features:
-
-- Modern
-- User Friendly
-- Mobile Responsive
-- Community Made
-
-<h2>🍰 Contribution Guidelines:</h2>
-
-Contributions are welcome to improve CourseNotes! Whether you're fixing bugs, adding features, or improving existing content, your help is appreciated. If you'd like to create a new course or edit an existing course you didn't author, please contact the maintainer via the chat widget at https://notes.opott.uk before making changes. This helps ensure consistency and accuracy. Feel free to open issues or submit pull requests with a clear description of your updates. Let’s make learning better together!
-
-<h2>💻 Built with</h2>
-
-Technologies used in the project:
-
-- HTML
-- CSS
-- JavaScript
-
-<h2>🛡️ License:</h2>
-
-This project is licensed under the GNU General Public Licence v3.0
+## Screenshots
+<div align="center">
+<img src="https://hc-cdn.hel1.your-objectstorage.com/s/v3/a016a0f022c29c597ac098f70e25970ae1806fc5_image.png" width="45%"></img>
+<img src="https://hc-cdn.hel1.your-objectstorage.com/s/v3/9cbd3001c38f5b00752748d6abfd801788bda892_image.png" width="45%"></img>
+<img src="https://hc-cdn.hel1.your-objectstorage.com/s/v3/e60b2a613e5850bb497e5a20eb5f33332e7ffc91_image.png" width="45%"></img>
+<img src="https://hc-cdn.hel1.your-objectstorage.com/s/v3/a69fa646bf6184af1b14eb40851493958f6f3d6e_image.png" width="45%"></img>
+<img src="https://hc-cdn.hel1.your-objectstorage.com/s/v3/30ec6acfe0902f58f9459a6f4b024bfb16bc7c48_image.png" width="45%"></img>
+<img src="https://hc-cdn.hel1.your-objectstorage.com/s/v3/6b01b068904093fa5fc0e7c34af3d037ee767465_image.png" width="45%"></img>
+</div>
