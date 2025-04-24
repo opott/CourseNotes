@@ -182,13 +182,18 @@ iframe {
   padding: 16px;
   text-align: center;
   transition: transform 0.2s;
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  justify-content: center;
 }
 
 .course-card:hover {
   transform: scale(1.05);
 }
 
-.course-card a {
+.course-link {
   text-decoration: none;
   color: inherit;
 }
