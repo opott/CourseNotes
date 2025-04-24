@@ -9,115 +9,223 @@
 
 <url>
   <loc>https://notes.opott.uk/</loc>
-  <changefreq>always</changefreq>
+  <lastmod>2025-04-23T20:49:47+00:00</lastmod>
+  <priority>1.00</priority>
 </url>
 <url>
   <loc>https://notes.opott.uk/courses/J277/index.html</loc>
-  <changefreq>always</changefreq>
+  <lastmod>2025-04-23T20:49:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://notes.opott.uk/courses/8702_b_2/index.html</loc>
+  <lastmod>2025-04-23T20:49:47+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
   <loc>https://notes.opott.uk/courses/J277/1.1/1-architecture-of-the-cpu.html</loc>
-  <changefreq>always</changefreq>
+  <lastmod>2025-04-23T20:49:47+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
   <loc>https://notes.opott.uk/courses/J277/1.1/2-cpu-performance.html</loc>
-  <changefreq>always</changefreq>
+  <lastmod>2025-04-23T20:49:47+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
   <loc>https://notes.opott.uk/courses/J277/1.1/3-embedded-systems.html</loc>
-  <changefreq>always</changefreq>
+  <lastmod>2025-04-23T20:49:47+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
   <loc>https://notes.opott.uk/courses/J277/1.2/1-primary-storage-memory.html</loc>
-  <changefreq>always</changefreq>
+  <lastmod>2025-04-23T20:49:47+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
   <loc>https://notes.opott.uk/courses/J277/1.2/2-secondary-storage.html</loc>
-  <changefreq>always</changefreq>
+  <lastmod>2025-04-23T20:49:47+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
   <loc>https://notes.opott.uk/courses/J277/1.2/3-units.html</loc>
-  <changefreq>always</changefreq>
+  <lastmod>2025-04-23T20:49:47+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
   <loc>https://notes.opott.uk/courses/J277/1.2/4-data-storage.html</loc>
-  <changefreq>always</changefreq>
+  <lastmod>2025-04-23T20:49:47+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
   <loc>https://notes.opott.uk/courses/J277/1.2/5-compression.html</loc>
-  <changefreq>always</changefreq>
+  <lastmod>2025-04-23T20:49:47+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
   <loc>https://notes.opott.uk/courses/J277/1.3/1-networks-and-topologies.html</loc>
-  <changefreq>always</changefreq>
+  <lastmod>2025-04-23T20:49:47+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
   <loc>https://notes.opott.uk/courses/J277/1.3/2-wired-and-wireless-networks-protocols-and-layers.html</loc>
-  <changefreq>always</changefreq>
+  <lastmod>2025-04-23T20:49:47+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
   <loc>https://notes.opott.uk/courses/J277/1.4/1-threats-to-computer-systems-and-networks.html</loc>
-  <changefreq>always</changefreq>
+  <lastmod>2025-04-23T20:49:47+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
   <loc>https://notes.opott.uk/courses/J277/1.4/2-identifying-and-preventing-vulnerabilities.html</loc>
-  <changefreq>always</changefreq>
+  <lastmod>2025-04-23T20:49:47+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
   <loc>https://notes.opott.uk/courses/J277/1.5/1-operating-systems.html</loc>
-  <changefreq>always</changefreq>
+  <lastmod>2025-04-23T20:49:47+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
   <loc>https://notes.opott.uk/courses/J277/1.5/2-utility-software.html</loc>
-  <changefreq>always</changefreq>
+  <lastmod>2025-04-23T20:49:47+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
   <loc>https://notes.opott.uk/courses/J277/1.6/1-ethical-legal-cultural-and-environmental-impact.html</loc>
-  <changefreq>always</changefreq>
+  <lastmod>2025-04-23T20:49:47+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
   <loc>https://notes.opott.uk/courses/J277/2.1/1-computational-thinking.html</loc>
-  <changefreq>always</changefreq>
+  <lastmod>2025-04-23T20:49:47+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
   <loc>https://notes.opott.uk/courses/J277/2.1/2-designing-creating-and-refining-algorithms.html</loc>
-  <changefreq>always</changefreq>
+  <lastmod>2025-04-23T20:49:47+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
   <loc>https://notes.opott.uk/courses/J277/2.1/3-searching-and-sorting-algorithms.html</loc>
-  <changefreq>always</changefreq>
+  <lastmod>2025-04-23T20:49:47+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
   <loc>https://notes.opott.uk/courses/J277/2.2/1-programming-fundamentals.html</loc>
-  <changefreq>always</changefreq>
+  <lastmod>2025-04-23T20:49:47+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
   <loc>https://notes.opott.uk/courses/J277/2.2/2-data-types.html</loc>
-  <changefreq>always</changefreq>
+  <lastmod>2025-04-23T20:49:47+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
   <loc>https://notes.opott.uk/courses/J277/2.2/3-additional-programming-techniques.html</loc>
-  <changefreq>always</changefreq>
+  <lastmod>2025-04-23T20:49:47+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
   <loc>https://notes.opott.uk/courses/J277/2.3/1-defensive-design.html</loc>
-  <changefreq>always</changefreq>
+  <lastmod>2025-04-23T20:49:47+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
   <loc>https://notes.opott.uk/courses/J277/2.3/2-testing.html</loc>
-  <changefreq>always</changefreq>
+  <lastmod>2025-04-23T20:49:47+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
   <loc>https://notes.opott.uk/courses/J277/2.4/1-boolean-logic.html</loc>
-  <changefreq>always</changefreq>
+  <lastmod>2025-04-23T20:49:47+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
   <loc>https://notes.opott.uk/courses/J277/2.5/1-languages.html</loc>
-  <changefreq>always</changefreq>
+  <lastmod>2025-04-23T20:49:47+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
   <loc>https://notes.opott.uk/courses/J277/2.5/2-the-integrated-development-environment.html</loc>
-  <changefreq>always</changefreq>
+  <lastmod>2025-04-23T20:49:47+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://notes.opott.uk/courses/8702_b_2/poems/ozymandias.html</loc>
+  <lastmod>2025-04-23T20:49:47+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://notes.opott.uk/courses/8702_b_2/poems/london.html</loc>
+  <lastmod>2025-04-23T20:49:47+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://notes.opott.uk/courses/8702_b_2/poems/prelude.html</loc>
+  <lastmod>2025-04-23T20:49:47+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://notes.opott.uk/courses/8702_b_2/poems/duchess.html</loc>
+  <lastmod>2025-04-23T20:49:47+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://notes.opott.uk/courses/8702_b_2/poems/lightbrigade.html</loc>
+  <lastmod>2025-04-23T20:49:47+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://notes.opott.uk/courses/8702_b_2/poems/exposure.html</loc>
+  <lastmod>2025-04-23T20:49:47+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://notes.opott.uk/courses/8702_b_2/poems/stormonisland.html</loc>
+  <lastmod>2025-04-23T20:49:47+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://notes.opott.uk/courses/8702_b_2/poems/bayonetcharge.html</loc>
+  <lastmod>2025-04-23T20:49:47+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://notes.opott.uk/courses/8702_b_2/poems/remains.html</loc>
+  <lastmod>2025-04-23T20:49:47+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://notes.opott.uk/courses/8702_b_2/poems/poppies.html</loc>
+  <lastmod>2025-04-23T20:49:47+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://notes.opott.uk/courses/8702_b_2/poems/warphotographer.html</loc>
+  <lastmod>2025-04-23T20:49:47+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://notes.opott.uk/courses/8702_b_2/poems/tissue.html</loc>
+  <lastmod>2025-04-23T20:49:47+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://notes.opott.uk/courses/8702_b_2/poems/emigree.html</loc>
+  <lastmod>2025-04-23T20:49:47+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://notes.opott.uk/courses/8702_b_2/poems/history.html</loc>
+  <lastmod>2025-04-23T20:49:47+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://notes.opott.uk/courses/8702_b_2/poems/kamikaze.html</loc>
+  <lastmod>2025-04-23T20:49:47+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 
 
